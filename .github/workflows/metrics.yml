@@ -7,6 +7,7 @@ on:
   workflow_dispatch:
   push: {branches: ["master", "main"]}
 jobs:
+  environment: prod
   github-metrics:
     runs-on: ubuntu-latest
     permissions:
