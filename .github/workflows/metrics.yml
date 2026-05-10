@@ -27,7 +27,7 @@ jobs:
 
           # Options
           user: Futuremappermydud
-          template: repository
+          template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/New_York
           plugin_isocalendar: yes
